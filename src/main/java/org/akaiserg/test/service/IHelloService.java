@@ -5,7 +5,7 @@ import org.akaiserg.test.response.Response;
 /**
  * Created by andreskaiser on 19-12-16.
  */
-public interface IService {
+public interface IHelloService {
 
 
     Response  getInfo(String data);

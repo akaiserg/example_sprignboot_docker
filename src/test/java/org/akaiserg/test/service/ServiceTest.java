@@ -14,10 +14,10 @@ public class ServiceTest {
     public void checkInstance() {
 
         // arrange
-        Service service;
+        HelloService service;
 
         //act
-        service = new Service();
+        service = new HelloService();
 
         //assert
         assertNotNull(service);
@@ -27,20 +27,20 @@ public class ServiceTest {
     @Test
     public void checkInterface() {
 
-        IService service;
+        IHelloService service;
 
-        service= new Service();
+        service= new HelloService();
 
-        assertTrue(service instanceof IService);
+        assertTrue(service instanceof IHelloService);
 
     }
 
     @Test
     public void checkResponse(){
 
-        IService service;
+        IHelloService service;
 
-        service= new Service();
+        service= new HelloService();
 
         Response response= service.getInfo("Andres");
 
