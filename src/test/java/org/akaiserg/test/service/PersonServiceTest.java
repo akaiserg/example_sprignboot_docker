@@ -51,8 +51,8 @@ public class PersonServiceTest {
     @Test
     public void testRepository(){
 
-        Person a = service.getPersonById(1L);
-        assertTrue(a instanceof Person);
+        Person person = service.getPersonById(1L);
+        assertTrue(person instanceof Person);
 
     }
 

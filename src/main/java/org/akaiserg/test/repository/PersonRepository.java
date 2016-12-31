@@ -1,7 +1,6 @@
 package org.akaiserg.test.repository;
 
 import org.akaiserg.test.domain.Person;
-import org.springframework.context.annotation.Bean;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

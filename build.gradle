@@ -43,3 +43,4 @@ jar {
 springBoot {
   mainClass = "org.akaiserg.test.application.Application"
 }
+

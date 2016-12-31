@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 /**
  * Created by andreskaiser on 19-12-16.
  */
-public class ServiceTest {
+public class HelloServiceTest {
 
     @Test
     public void checkInstance() {
